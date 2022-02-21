@@ -1,0 +1,11 @@
+.background{
+    position: fixed;
+}
+
+.profilePicture{
+    position: absolute;
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 30%;
+    margin-right: 20%;
+}

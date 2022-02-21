@@ -1,0 +1,108 @@
+.annoucement {
+  float: left;
+  padding-top: 20px;
+}
+.annoucement ul li {
+  display: inline-block;
+}
+.annoucement ul li a i {
+  color: #000;
+  margin-right: 7px;
+  transition: all 500ms ease 0s;
+}
+.annoucement ul li a {
+  color: #000;
+  display: block;
+  font-size: 11px;
+  padding-left: 20px;
+  text-transform: uppercase;
+  position: relative;
+  transition: all 500ms ease 0s;
+}
+.annoucement ul li a:hover{color:#F55C23}
+.annoucement ul li a:hover i{color:#292929}
+.annoucement ul li a span {
+  background: none repeat scroll 0 0 #a1a1a1;
+  height: 9px;
+  left: 9px;
+  position: absolute;
+  top: 9px;
+  width: 1px;
+}
+
+@media (min-width: 1200px) {
+  .annoucement  {
+      float: right;
+      padding-top: 40px;
+    }
+    .annoucement ul li {
+      display: inline-block;
+    }
+    .annoucement ul li a i {
+      color: #000;
+      margin-right: 7px;
+      transition: all 500ms ease 0s;
+    }
+    .annoucement ul li a {
+      color: #000;
+      display: block;
+      font-size: 12px;
+      padding-left: 25px;
+      text-transform: uppercase;
+      position: relative;
+      transition: all 500ms ease 0s;
+    }
+    .annoucement ul li a:hover{color:#F55C23}
+    .annoucement ul li a:hover i{color:#292929}
+    .annoucementul li a span {
+      background: none repeat scroll 0 0 #a1a1a1;
+      height: 9px;
+      left: 9px;
+      position: absolute;
+      top: 9px;
+      width: 1px;
+    }
+  }
+
+  @media(min-width){
+    
+  }
+  .grace-footer{
+    font-size: 11px;
+  }
+
+  .grace-footer a{
+    text-decoration: none;
+    color: #F55C23;
+  }
+
+  .grace-footer a:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .blog-comment img {
+    float: left;
+    margin-right: 18px;
+    margin-bottom: 100px;
+  }
+  .blog-comment .img-box h4 {
+    color: #202e31;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 7px;
+    text-transform: uppercase;
+  }
+  .blog-comment h5 {
+    color: #a4a4a4;
+    font-size: 12px;
+    font-style: italic;
+   font-family: 'Open Sans', sans-serif;
+  }
+  .blog-comment p {
+    color: #6d6d6d;
+    font-size: 14px;
+    line-height: 26px;
+    padding-top: 18px;
+    padding-right: 200px;
+  }
